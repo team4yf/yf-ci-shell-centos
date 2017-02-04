@@ -15,7 +15,7 @@ if [ -z $1 ]; then
 
 elif [ $1 = "list" ]; then
   echo ">>>>>>>> Show All The Projects"
-  ls -p $WEB_SITE_DIR | grep /
+  ls -l $WEB_SITE_DIR | grep '^d'
   exit
 
 elif [ $1 = "add" ]; then
