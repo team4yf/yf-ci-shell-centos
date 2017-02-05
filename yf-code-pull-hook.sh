@@ -5,7 +5,9 @@
 clear
 
 # TODO: change the dir
-WEB_SITE_DIR="/home/yf/nodejs/projects/demo.yunplus.io/"
+PROJECT_DIR="/home/yf/nodejs/projects/"
+WEB_SITE_DIR=$PROJECT_DIR"demo.yunplus.io/"
+
 
 #没有值
 if [ -z $1 ]; then
