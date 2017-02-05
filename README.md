@@ -17,11 +17,19 @@ $ chmod +x /usr/bin/yfcode
 `
 
 ###### 4.执行list指令
+获取所有的项目列表
+
 `
-$ yfcode list
+$ yfcode list -p
+`
+
+获取所有的静态网站列表
+
+`
+$ yfcode list -w
 `
 
 ###### 5.执行pull指令
 `
-$ yfcode pull
+$ yfcode pull -w www.xinyangjlm.com
 `
