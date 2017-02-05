@@ -29,6 +29,7 @@ elif [ $1 = "pull" ]; then
   if [ $2 = "-p" ]; then
     cd $PROJECT_DIR/$3
     git pull
+    npm i
     pm2 restart $3
   elif [ $2 = "-w" ]; then
     cd $WEB_SITE_DIR/$3
